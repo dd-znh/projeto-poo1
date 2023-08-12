@@ -16,6 +16,7 @@ class VinteUm:
     self.baralho = Baralho()
     self.jogador = Mao()
     self.banca = Mao()
+    self.jogador2 = Mao()
     self.tela = tela
     self.segurou = False
     self.jogando = True
