@@ -53,7 +53,7 @@ class VinteUm:
       Final(imagem_jogador_ganhou, "audios/ganhou.mp3", "jogador ganhou")
 
     elif self.banca.soma == self.jogador.soma:
-      Final(imagem_jogador_empatou, "audios/empatou.mp3, jogador empatou")
+      Final(imagem_jogador_empatou, "audios/empatou.mp3", "jogador empatou")
 
     else:
       Final(imagem_jogador_perdeu, "audios/perdeu.mp3", "jogador perdeu")
